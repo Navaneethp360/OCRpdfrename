@@ -60,10 +60,10 @@ class PDFRenamerGUI:
         # Buttons frame
         buttons_frame = ttk.Frame(self.root)
         buttons_frame.pack(padx=10, pady=10, fill='x')
-        self.rename_button = ttk.Button(buttons_frame, text="Rename PDFs", command=self.start_rename, style='Accent.TButton')
-        self.rename_button.pack(side='left', expand=True, fill='x', padx=(0,5))
         self.preview_button = ttk.Button(buttons_frame, text="Preview PDF", command=self.preview_pdf, style='Accent.TButton')
-        self.preview_button.pack(side='left', expand=True, fill='x', padx=(5,0))
+        self.preview_button.pack(side='left', expand=True, fill='x', padx=(0,5))
+        self.rename_button = ttk.Button(buttons_frame, text="Rename PDFs", command=self.start_rename, style='Accent.TButton')
+        self.rename_button.pack(side='left', expand=True, fill='x', padx=(5,0))
 
         # Log console label
         ttk.Label(self.root, text="Console Output:", font=label_font).pack(anchor='w', padx=10, pady=(10,0))
