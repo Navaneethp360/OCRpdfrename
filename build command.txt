@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed pdf_renamer_gui.py
