@@ -8,6 +8,7 @@ import fitz  # PyMuPDF
 import ttkbootstrap as tb
 from ttkbootstrap.constants import *
 
+# File Rename App
 class GlassPDFRenamerApp:
     def __init__(self, root):
         self.root = root
