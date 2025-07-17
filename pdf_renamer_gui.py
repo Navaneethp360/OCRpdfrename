@@ -12,7 +12,7 @@ from ttkbootstrap.constants import *
 class GlassPDFRenamerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("PDF Renamer - Glass Edition")
+        self.root.title("PDF Renamer")
         self.root.geometry("800x600")
         self.root.configure(bg="#dbe9f4")
 
