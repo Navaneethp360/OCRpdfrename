@@ -48,9 +48,7 @@ OR
 Locate the .exe file in the dist folder and run the application.
 
 ## 🎨 Screenshots
-<img width="802" height="629" alt="image" src="https://github.com/user-attachments/assets/a541fc29-628e-41f8-bae2-baf0708cf09c" />
-
-
+<img width="798" height="631" alt="image" src="https://github.com/user-attachments/assets/15ff69eb-1d18-492c-9889-04bb62095d31" />
 
 ## 📌 Notes
 Designed for Windows OS
