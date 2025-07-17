@@ -76,9 +76,9 @@ class PDFRenamerGUI:
             self.root,
             text="Developed by: Navaneeth P - 2025",
             bg=self.BG_COLOR,
-            fg="blue",
+            fg="black",
             cursor="hand2",
-            font=(self.FONT_FAMILY, self.FONT_SIZE - 2, "underline"))
+            font=(self.FONT_FAMILY, self.FONT_SIZE - 2))
         self.footer_label.pack(side=tk.BOTTOM, pady=10)
         self.footer_label.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/Navaneethp360"))
 
